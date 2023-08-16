@@ -7,6 +7,8 @@ RUN go get -u github.com/spf13/cobra@latest && \
     go install github.com/golang/mock/mockgen@v1.5.0 && \
     go install github.com/spf13/cobra-cli@latest
 
+RUN go get -u github.com/stretchr/testify@v1.7.0
+
 
 RUN apt-get update && apt-get install sqlite3 -y
 
