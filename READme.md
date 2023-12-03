@@ -8,7 +8,7 @@
 
 De maneira simplista é uma maneira de escrever um software que busca separar as preocupações e promover a modularidade em um sistema. Na sua configuração básica, a arquitetura é composta por um núcleo central, representando a lógica de negócios, cercado por portas que definem as interfaces de entrada e saída. Essas portas são conectadas a adaptadores, que são responsáveis por traduzir as operações do núcleo para o formato esperado pelos componentes externos, como interfaces de usuário, bancos de dados ou serviços externos.
 
-## Ilustração :framed_picture:
+## Visualização da Arquitetura :framed_picture:
 ```mermaid
 flowchart  TD
 	subgraph  Núcleo  Central
